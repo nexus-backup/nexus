@@ -1,0 +1,50 @@
+# v0.0.2 (Thu Mar 23 2023)
+
+#### 🐛 Bug Fix
+
+- chore: bypass protect branch [#2](https://github.com/nexus-backup/nexus/pull/2) ([@homura](https://github.com/homura))
+- chore: bypass protect branch [#1](https://github.com/nexus-backup/nexus/pull/1) ([@homura](https://github.com/homura))
+
+#### ⚠️ Pushed to `main`
+
+- chore: update lock file ([@homura](https://github.com/homura))
+- Merge remote-tracking branch 'ckb-js/main' into auto-build ([@homura](https://github.com/homura))
+- feat(extension-chrome): add comment and optimize edge case of addMethod validator ([@IronLu233](https://github.com/IronLu233))
+- chore: log success only when building success ([@homura](https://github.com/homura))
+- feat(extension-chrome): fix unit test code mistake ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): ZBytesLike only accepts hex string ([@IronLu233](https://github.com/IronLu233))
+- chore: auto build when pr or push ([@homura](https://github.com/homura))
+- remove __mocks__ ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): refactor code ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): optimize validation error message ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): refactor to middleware ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): add unit test to addMethodValidator ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): move to upper __tests__ dir ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): some document modification ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): refactor unit test ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): refactor rpc method validate ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): add todo on test of parameter validation ([@IronLu233](https://github.com/IronLu233))
+- Revert "feat(extension-chrome): make parameter validation configuable on `createRpcServer`" ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): make parameter validation configuable on `createRpcServer` ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): change user reject error throw position ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): add unit test for primitive type schema ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): add type restrict for parameters ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): refactor code after code review ([@IronLu233](https://github.com/IronLu233))
+- Merge remote-tracking branch 'upstream/main' into rpc-validation ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): add TODO on validate error ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): remove nullish ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): remove unused eslint ignore ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): rename schema to Z**** ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): fix some type static check issue ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): skip some static type check ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): add static type check ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): add unit test ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): more validation on RPC methods ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): finish validate transaction ([@IronLu233](https://github.com/IronLu233))
+- Add zod for `wallet_enable`, `wallet_fullOwnership_signTransaction`, `wallet_fullOwnership_signData` ([@IronLu233](https://github.com/IronLu233))
+- feat(extension-chrome): WIP: add validate for parameter ([@IronLu233](https://github.com/IronLu233))
+
+#### Authors: 2
+
+- Iron Lu ([@IronLu233](https://github.com/IronLu233))
+- Yonghui Lin ([@homura](https://github.com/homura))
