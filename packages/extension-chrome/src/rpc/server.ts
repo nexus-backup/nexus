@@ -2,7 +2,7 @@ import { RPCMethodHandler, RpcMethods, ServerParams } from './types';
 import { ModulesFactory } from '../services';
 import { JSONRPCRequest, JSONRPCResponse, JSONRPCServer } from 'json-rpc-2.0';
 import { whitelistMiddleware } from './middlewares/whitelistMiddleware';
-import { createLogger } from '@nexus-wallet/utils';
+import { createLogger } from '@nexus-wallet-backup/utils';
 import { errorMiddleware } from './middlewares/errorMiddleware';
 import { z, ZodType } from 'zod';
 import { createParameterValidateMiddleware } from './middlewares/parameterValidateMiddleware';

@@ -1,5 +1,5 @@
 {
-  "name": "@nexus-wallet/ownership-providers",
+  "name": "@nexus-wallet-backup/ownership-providers",
   "version": "0.0.1",
   "description": "Simple wrapper to work with Nexus",
   "homepage": "https://github.com/ckb-js/nexus/tree/main/extension-chrome#readme",
@@ -29,8 +29,8 @@
     "url": "https://github.com/ckb-js/nexus/issues"
   },
   "dependencies": {
-    "@nexus-wallet/protocol": "*",
-    "@nexus-wallet/utils": "*",
+    "@nexus-wallet-backup/protocol": "*",
+    "@nexus-wallet-backup/utils": "*",
     "lodash.range": "3.2.0"
   },
   "devDependencies": {

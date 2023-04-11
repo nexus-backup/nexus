@@ -1,5 +1,5 @@
-import { GrantService, Storage } from '@nexus-wallet/types';
-import { errors } from '@nexus-wallet/utils';
+import { GrantService, Storage } from '@nexus-wallet-backup/types';
+import { errors } from '@nexus-wallet-backup/utils';
 
 export function createGrantService(payload: { storage: Storage<{ grant: string[] }> }): GrantService {
   const { storage } = payload;

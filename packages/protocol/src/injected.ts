@@ -8,7 +8,7 @@ type AssertFn<T> = Assert<T, AnyFn>;
  * An object acts as an RPC client and an event client to communicate with Nexus
  *
  * @example
- *   import { RpcMethods, Events } from '@nexus-wallet/protocol';
+ *   import { RpcMethods, Events } from '@nexus-wallet-backup/protocol';
  *   const ckb: InjectedCkb<RpcMethods, Events> = window.ckb;
  *   ckb.request({ method: 'wallet_enable' });
  *

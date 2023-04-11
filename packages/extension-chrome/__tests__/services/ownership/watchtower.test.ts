@@ -4,7 +4,7 @@ import {
   FULL_OWNERSHIP_INTERNAL_PARENT_PATH,
   RULE_BASED_PARENT_PATH,
 } from '../../../src/services/ownership';
-import { KeystoreService } from '@nexus-wallet/types';
+import { KeystoreService } from '@nexus-wallet-backup/types';
 import { createScriptInfoDb, ScriptInfo } from '../../../src/services/ownership/storage';
 import { Backend } from '../../../src/services/ownership/backend';
 import { createMockModule } from '../../helpers/createMockModule';

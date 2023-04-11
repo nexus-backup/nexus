@@ -1,6 +1,6 @@
-import { ConfigService, Storage } from '@nexus-wallet/types';
-import type { Config, NetworkConfig, TrustedHost } from '@nexus-wallet/types/lib/services';
-import { createLogger, errors, LIB_VERSION } from '@nexus-wallet/utils';
+import { ConfigService, Storage } from '@nexus-wallet-backup/types';
+import type { Config, NetworkConfig, TrustedHost } from '@nexus-wallet-backup/types/lib/services';
+import { createLogger, errors, LIB_VERSION } from '@nexus-wallet-backup/utils';
 import produce from 'immer';
 import joi from 'joi';
 import { EventHub } from './event';

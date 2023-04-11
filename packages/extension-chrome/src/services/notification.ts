@@ -1,5 +1,5 @@
-import type { Call, PlatformService } from '@nexus-wallet/types';
-import { errors } from '@nexus-wallet/utils';
+import type { Call, PlatformService } from '@nexus-wallet-backup/types';
+import { errors } from '@nexus-wallet-backup/utils';
 import { TransactionSkeletonObject } from '@ckb-lumos/helpers';
 import type { HexString, Script } from '@ckb-lumos/base';
 import { createSessionMessenger, SessionMessenger } from '../messaging/session';

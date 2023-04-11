@@ -1,5 +1,5 @@
-import { EventClient, Events, InjectedCkb, RpcClient } from '@nexus-wallet/types';
-import { LIB_VERSION } from '@nexus-wallet/utils';
+import { EventClient, Events, InjectedCkb, RpcClient } from '@nexus-wallet-backup/types';
+import { LIB_VERSION } from '@nexus-wallet-backup/utils';
 import { RpcMethods } from '../rpc/types';
 
 export function createInjectedCkb<Rpc = RpcMethods, Evt = Events>({

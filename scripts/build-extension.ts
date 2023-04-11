@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-member-access,@typescript-eslint/no-unsafe-call */
 import { Auto, IPlugin } from '@auto-it/core';
 import { spawn } from 'child_process';
 
@@ -23,7 +24,7 @@ export default class BuildExtension implements IPlugin {
       // build Nexus extension
       'npm run build:extension-chrome',
       // zip Nexus extension into `packages/extension-chrome/nexus.zip`
-      'npm run -w @nexus-wallet/extension-chrome zip',
+      'npm run -w @nexus-wallet-backup/extension-chrome zip',
     ].join(' && ');
 
     return new Promise((resolve, reject) => {

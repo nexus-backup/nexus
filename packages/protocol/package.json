@@ -1,5 +1,5 @@
 {
-  "name": "@nexus-wallet/protocol",
+  "name": "@nexus-wallet-backup/protocol",
   "version": "0.0.1",
   "description": "Nexus Wallet Protocol",
   "homepage": "https://github.com/ckb-js/nexus/tree/main/extension-chrome#readme",

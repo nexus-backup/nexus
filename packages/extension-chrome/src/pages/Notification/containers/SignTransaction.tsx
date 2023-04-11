@@ -30,7 +30,7 @@ import { useCheckPassword } from '../../hooks/useCheckPassword';
 import { useSessionMessenger } from '../../hooks/useSessionMessenger';
 import { parseCellType } from '../utils/parseCellType';
 import { useConfigQuery } from '../../hooks/useConfigQuery';
-import { NetworkName } from '@nexus-wallet/protocol';
+import { NetworkName } from '@nexus-wallet-backup/protocol';
 import { formatUnit } from '@ckb-lumos/bi';
 
 type TransactionIOListProps = {

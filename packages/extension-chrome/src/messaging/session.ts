@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import { CallMap, CallParam, CallResult, Promisable } from '@nexus-wallet/types';
+import { CallMap, CallParam, CallResult, Promisable } from '@nexus-wallet-backup/types';
 import {
   createJSONRPCErrorResponse,
   createJSONRPCRequest,
@@ -10,7 +10,7 @@ import {
   JSONRPCRequest,
   JSONRPCResponse,
 } from 'json-rpc-2.0';
-import { asserts } from '@nexus-wallet/utils';
+import { asserts } from '@nexus-wallet-backup/utils';
 
 export interface SessionMessenger<Map extends CallMap = CallMap> {
   sessionId(): string;

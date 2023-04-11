@@ -1,6 +1,6 @@
 import { z, ZodType } from 'zod';
 import { ZScript, ZTransaction } from './blockchain';
-import { RpcMethods } from '@nexus-wallet/types';
+import { RpcMethods } from '@nexus-wallet-backup/types';
 import { ZHexString } from './primitives';
 
 type ObjectEquals<X, Y> = X extends Y ? (Y extends X ? true : false) : false;

@@ -1,1 +1,1 @@
-export { asyncSleep } from '@nexus-wallet/utils';
+export { asyncSleep } from '@nexus-wallet-backup/utils';

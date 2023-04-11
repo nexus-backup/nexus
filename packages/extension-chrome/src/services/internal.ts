@@ -1,5 +1,5 @@
-import { ConfigService, KeystoreService, PlatformService } from '@nexus-wallet/types';
-import { NetworkConfig } from '@nexus-wallet/types/lib/services';
+import { ConfigService, KeystoreService, PlatformService } from '@nexus-wallet-backup/types';
+import { NetworkConfig } from '@nexus-wallet-backup/types/lib/services';
 import { EventHub } from './event';
 import {
   FULL_OWNERSHIP_EXTERNAL_PARENT_PATH,

@@ -1,5 +1,5 @@
 {
-  "name": "@nexus-wallet/types",
+  "name": "@nexus-wallet-backup/types",
   "version": "0.0.1",
   "description": "",
   "homepage": "https://github.com/ckb-js/nexus/tree/main/extension-chrome#readme",
@@ -18,7 +18,7 @@
     "url": "git+https://github.com/ckb-js/nexus.git"
   },
   "dependencies": {
-    "@nexus-wallet/protocol": "*"
+    "@nexus-wallet-backup/protocol": "*"
   },
   "devDependencies": {
     "@ckb-lumos/codec": "0.20.0-alpha.2",

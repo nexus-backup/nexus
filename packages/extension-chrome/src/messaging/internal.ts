@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import { errors } from '@nexus-wallet/utils';
+import { errors } from '@nexus-wallet-backup/utils';
 
 export type Context = 'content-script' | 'website';
 const NEXUS_MESSAGE_TYPE_KEY = '__NEXUS_MESSAGE_TYPE__' as const;

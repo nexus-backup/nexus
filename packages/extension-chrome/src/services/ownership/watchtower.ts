@@ -1,7 +1,7 @@
 import { Backend } from './backend';
-import { createLogger } from '@nexus-wallet/utils';
-import { asserts } from '@nexus-wallet/utils/lib/asserts';
-import { KeystoreService, ConfigService } from '@nexus-wallet/types';
+import { createLogger } from '@nexus-wallet-backup/utils';
+import { asserts } from '@nexus-wallet-backup/utils/lib/asserts';
+import { KeystoreService, ConfigService } from '@nexus-wallet-backup/types';
 import { utils } from '@ckb-lumos/lumos';
 import { ScriptInfo, ScriptInfoDb } from './storage';
 import zip from 'lodash.zip';
