@@ -1,3 +1,32 @@
+# v0.0.11 (Wed Apr 12 2023)
+
+#### 🚀 Enhancement
+
+- `@nexus-wallet-backup/ownership-providers`, `@nexus-wallet-backup/protocol`, `@nexus-wallet-backup/utils`
+  - chore: intro lerna to publish nexus packages [#8](https://github.com/nexus-backup/nexus/pull/8) ([@homura](https://github.com/homura) github-actions@github.com)
+
+#### ⚠️ Pushed to `main`
+
+- chore: avoid e2e failed in ci by increasing timeout ([@homura](https://github.com/homura))
+- docs: run e2e in headless mode ([@homura](https://github.com/homura))
+- test: setup for e2e env ([@homura](https://github.com/homura))
+- test: e2e testing scaffolding ([@homura](https://github.com/homura))
+- docs: support add network ([@zhangyouxin](https://github.com/zhangyouxin))
+- docs: refine grammar ([@zhangyouxin](https://github.com/zhangyouxin))
+- docs: connect nexus wallet to devnet ([@zhangyouxin](https://github.com/zhangyouxin))
+- docs: describe why need to run a dev chain ([@zhangyouxin](https://github.com/zhangyouxin))
+- docs: add rpc node url ([@zhangyouxin](https://github.com/zhangyouxin))
+- docs: fix typo and resize img ([@zhangyouxin](https://github.com/zhangyouxin))
+- docs: add doc for starting a dev node ([@zhangyouxin](https://github.com/zhangyouxin))
+
+#### Authors: 3
+
+- github-actions (github-actions@github.com)
+- Shinya ([@zhangyouxin](https://github.com/zhangyouxin))
+- Yonghui Lin ([@homura](https://github.com/homura))
+
+---
+
 # v0.0.3 (Tue Apr 11 2023)
 
 #### ⚠️ Pushed to `main`
