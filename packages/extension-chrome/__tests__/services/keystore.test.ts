@@ -1,4 +1,4 @@
-import type { KeystoreService, Storage } from '@nexus-wallet/types';
+import type { KeystoreService, Storage } from '@nexus-wallet-backup/types';
 import { createInMemoryStorage } from '../../src/services/storage';
 import { assertDerivationPath, createKeystoreService } from '../../src/services/keystore';
 import hd from '@ckb-lumos/hd';

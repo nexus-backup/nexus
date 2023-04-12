@@ -1,4 +1,4 @@
-import { Storage } from '@nexus-wallet/types';
+import { Storage } from '@nexus-wallet-backup/types';
 import browser from 'webextension-polyfill';
 
 export function createBrowserExtensionStorage<S>(): Storage<S> {

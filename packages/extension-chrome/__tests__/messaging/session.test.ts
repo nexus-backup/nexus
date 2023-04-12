@@ -1,4 +1,4 @@
-import { Call } from '@nexus-wallet/types';
+import { Call } from '@nexus-wallet-backup/types';
 import { EventEmitter } from 'events';
 import { createSessionMessenger, MessengerAdapter } from '../../src/messaging/session';
 

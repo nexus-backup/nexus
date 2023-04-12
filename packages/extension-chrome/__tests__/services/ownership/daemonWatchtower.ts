@@ -1,11 +1,11 @@
 import { createDaemonWatchtower } from '../../../src/services/ownership/watchtower/daemon';
 import { createTestRpcServer } from '../../rpc/helper';
 import { createMockBackend } from '../../helpers/mockBackend';
-import { asyncSleep } from '@nexus-wallet/utils';
+import { asyncSleep } from '@nexus-wallet-backup/utils';
 import { createInMemoryStorage } from '../../../src/services/storage';
-import { setLogLevel } from '@nexus-wallet/utils/lib/logger';
+import { setLogLevel } from '@nexus-wallet-backup/utils/lib/logger';
 import { createMockModule } from '../../helpers/createMockModule';
-import { KeystoreService } from '@nexus-wallet/types';
+import { KeystoreService } from '@nexus-wallet-backup/types';
 
 // disable log in this test
 setLogLevel(9999);

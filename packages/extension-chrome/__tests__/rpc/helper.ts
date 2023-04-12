@@ -1,5 +1,5 @@
 import './_patch';
-import { InjectedCkb, Storage } from '@nexus-wallet/types';
+import { InjectedCkb, Storage } from '@nexus-wallet-backup/types';
 import { JSONRPCClient } from 'json-rpc-2.0';
 import { createServer } from '../../src/rpc';
 import { createModulesFactory, ModuleProviderMap, ModulesFactory } from '../../src/services/factory';
@@ -7,7 +7,7 @@ import { mockPlatformService, mockStorage } from '../helpers';
 import '../../src/rpc/debugImpl';
 import '../../src/rpc/walletImpl';
 import { createInjectedCkb } from '../../src/injectedCkb';
-import { errors } from '@nexus-wallet/utils';
+import { errors } from '@nexus-wallet-backup/utils';
 import { RpcMethods } from '../../src/rpc/types';
 import { EventMap } from '../../src/services/event';
 

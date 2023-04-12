@@ -1,11 +1,14 @@
 {
-  "name": "@nexus-wallet/protocol",
-  "version": "0.0.1",
+  "name": "@nexus-wallet-backup/protocol",
+  "version": "0.0.10",
   "description": "Nexus Wallet Protocol",
   "homepage": "https://github.com/ckb-js/nexus/tree/main/extension-chrome#readme",
   "license": "MIT",
   "typings": "./lib/index.d.ts",
   "main": "lib",
+  "publishConfig": {
+    "access": "public"
+  },
   "directories": {
     "lib": "lib"
   },
@@ -26,5 +29,11 @@
   },
   "bugs": {
     "url": "https://github.com/ckb-js/nexus/issues"
+  },
+  "devDependencies": {
+    "@ckb-lumos/base": "0.20.0-alpha.2"
+  },
+  "peerDependencies": {
+    "@ckb-lumos/base": "0.20.0-alpha.2"
   }
 }

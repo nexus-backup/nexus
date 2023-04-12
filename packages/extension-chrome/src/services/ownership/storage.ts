@@ -1,4 +1,4 @@
-import { Storage } from '@nexus-wallet/types';
+import { Storage } from '@nexus-wallet-backup/types';
 import { HexString, Script } from '@ckb-lumos/lumos';
 
 export interface ScriptInfoDb {

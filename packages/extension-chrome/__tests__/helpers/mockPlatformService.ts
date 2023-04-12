@@ -1,9 +1,9 @@
-import { PlatformService } from '@nexus-wallet/types';
+import { PlatformService } from '@nexus-wallet-backup/types';
 
 export const MOCK_PLATFORM_URL = 'internal://nexus-wallet.io';
 export const MOCK_PLATFORM_PASSWORD = '12345678';
 
-// TODO: move it to @nexus-wallet/testkit
+// TODO: move it to @nexus-wallet-backup/testkit
 export const mockPlatformService: PlatformService = {
   getActiveSiteInfo: async () => undefined,
   getRequesterAppInfo: async () => ({ url: MOCK_PLATFORM_URL }),

@@ -1,5 +1,5 @@
 import { Cell, HexNumber, HexString, OutPoint, Script, utils } from '@ckb-lumos/lumos';
-import { asserts } from '@nexus-wallet/utils';
+import { asserts } from '@nexus-wallet-backup/utils';
 import { ScriptConfig } from '@ckb-lumos/config-manager';
 import { JSONRPCRequest, JSONRPCResponse } from 'json-rpc-2.0';
 import { RPC as RpcType } from '@ckb-lumos/rpc/lib/types/rpc';

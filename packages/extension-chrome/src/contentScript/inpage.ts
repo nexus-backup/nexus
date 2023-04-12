@@ -3,7 +3,7 @@ import * as windowMessenger from '../messaging';
 import { EventEmitter } from 'eventemitter3';
 import { isEventObject } from '../messaging/internal';
 import { createInjectedCkb } from '../injectedCkb';
-import type { RpcClient, RpcMethods } from '@nexus-wallet/types';
+import type { RpcClient, RpcMethods } from '@nexus-wallet-backup/types';
 
 const client = new JSONRPCClient(async (req) => {
   const response = await windowMessenger.sendMessage('contentAndInjected', req, 'content-script');

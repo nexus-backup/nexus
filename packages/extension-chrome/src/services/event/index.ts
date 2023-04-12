@@ -1,5 +1,5 @@
 import { EventEmitter } from 'events';
-import { Events } from '@nexus-wallet/types';
+import { Events } from '@nexus-wallet-backup/types';
 
 export interface EventMap extends Events {
   /**
