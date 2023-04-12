@@ -52,7 +52,7 @@
     "build:extension-chrome": "npm run build -w @nexus-wallet-backup/extension-chrome",
     "test": "jest",
     "start": "npm run start -w @nexus-wallet-backup/extension-chrome",
-    "e2e": "npm run test -w=@nexus-wallet/e2e",
+    "e2e": "npm run test -w=@nexus-wallet-backup/e2e",
     "lint": "eslint 'packages/*/{src,__tests__}/**/*.{js,ts,jsx,tsx}'",
     "check": "npm run check:types",
     "check:types": "npm run check:types -w @nexus-wallet-backup/types -w @nexus-wallet-backup/utils -w @nexus-wallet-backup/extension-chrome",
