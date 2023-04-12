@@ -8,7 +8,8 @@
     "npm": ">=9.4"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "e2e"
   ],
   "devDependencies": {
     "@auto-it/core": "10.43.0",
@@ -51,6 +52,7 @@
     "build:extension-chrome": "npm run build -w @nexus-wallet-backup/extension-chrome",
     "test": "jest",
     "start": "npm run start -w @nexus-wallet-backup/extension-chrome",
+    "e2e": "npm run test -w=@nexus-wallet/e2e",
     "lint": "eslint 'packages/*/{src,__tests__}/**/*.{js,ts,jsx,tsx}'",
     "check": "npm run check:types",
     "check:types": "npm run check:types -w @nexus-wallet-backup/types -w @nexus-wallet-backup/utils -w @nexus-wallet-backup/extension-chrome",
