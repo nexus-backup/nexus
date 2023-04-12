@@ -2,6 +2,7 @@
   "name": "@nexus-wallet-backup/e2e",
   "version": "1.0.0",
   "description": "E2E testing for Nexus",
+  "private": true,
   "main": "index.js",
   "directories": {
     "test": "tests"
