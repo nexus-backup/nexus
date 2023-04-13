@@ -1,3 +1,39 @@
+# v0.0.12 (Thu Apr 13 2023)
+
+#### 🚀 Enhancement
+
+- chore: fix bump failed since git commit failed [#11](https://github.com/nexus-backup/nexus/pull/11) ([@homura](https://github.com/homura))
+- `@nexus-wallet-backup/ownership-providers`, `@nexus-wallet-backup/protocol`, `@nexus-wallet-backup/utils`
+  - chore: bump manifest version in ci [#10](https://github.com/nexus-backup/nexus/pull/10) ([@homura](https://github.com/homura))
+
+#### ⚠️ Pushed to `main`
+
+- chore: run check via lerna ([@homura](https://github.com/homura))
+- chore: update dependencies ([@homura](https://github.com/homura))
+- chore: update lock file ([@homura](https://github.com/homura))
+- chore: e2e as private package ([@homura](https://github.com/homura))
+- chore: unnecessary lumos config ([@homura](https://github.com/homura))
+- Merge remote-tracking branch 'ckb-js/main' into lerna-publish ([@homura](https://github.com/homura))
+- fix: build failed since miss npm token ([@homura](https://github.com/homura))
+- fix: build failed since miss browserify ([@homura](https://github.com/homura))
+- `@nexus-wallet-backup/ownership-providers`, `@nexus-wallet-backup/protocol`, `@nexus-wallet-backup/utils`
+  - docs: readme for npm ([@homura](https://github.com/homura))
+  - chore: bump version ([@homura](https://github.com/homura))
+  - chore: lerna to publish modules ([@homura](https://github.com/homura))
+- `@nexus-wallet-backup/ownership-providers`
+  - fix(ownership-provider): build failed since cannot find entry ([@homura](https://github.com/homura))
+  - refactor(ownership-providers): reduce dependencies by replacing lodash equal ([@homura](https://github.com/homura))
+- `@nexus-wallet-backup/utils`
+  - chore: build with lerna to simplify scripts ([@homura](https://github.com/homura))
+- `@nexus-wallet-backup/ownership-providers`, `@nexus-wallet-backup/protocol`
+  - chore: unnecessary lumos submodule ([@homura](https://github.com/homura))
+
+#### Authors: 1
+
+- Yonghui Lin ([@homura](https://github.com/homura))
+
+---
+
 # v0.0.10 (Mon Apr 10 2023)
 
 #### 🔨 Breaking Minor Change
