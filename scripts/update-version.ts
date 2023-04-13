@@ -42,14 +42,17 @@ export default class UpdateVersion implements IPlugin {
 
       const commitHash = await auto.git?.getSha();
 
-      fs.writeFileSync(envTs, generateEnvTs(bumpedVersion, commitHash || 'unknown'));
+      auto.logger.log.info(`Bump base branch: ${auto.baseBranch}, current branch: ${branch}`);
+      auto.logger.log.info(`Nexus will bump the manifest to ${bumpedVersion} - ${commitHash}`);
 
+      fs.writeFileSync(envTs, generateEnvTs(bumpedVersion, commitHash || 'unknown'));
       const oldManifest = JSON.parse(fs.readFileSync(manifestJson).toString());
       oldManifest.version = bumpedVersion;
       fs.writeFileSync(manifestJson, JSON.stringify(oldManifest, null, 2));
 
+      await execPromise('npx', ['prettier', '-w', envTs, manifestJson]);
       await execPromise('git', ['add', envTs, manifestJson]);
-      await execPromise('git', ['commit', '-m', `Bump manifest version to: ${bumpedVersion} [skip ci]`]);
+      await execPromise('git', ['commit', '-m', `"Bump manifest version to: ${bumpedVersion} [skip ci]"`]);
     });
   }
 }
