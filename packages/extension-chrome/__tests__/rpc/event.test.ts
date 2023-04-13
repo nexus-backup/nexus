@@ -1,6 +1,6 @@
 import { createTestRpcServer } from './helper';
 import { createInMemoryStorage } from '../../src/services/storage';
-import { asyncSleep } from '@nexus-wallet/utils';
+import { asyncSleep } from '@nexus-wallet-backup/utils';
 
 it('should the networkChanged fired when config has updated', async () => {
   const { ckb } = createTestRpcServer();

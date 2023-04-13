@@ -1,5 +1,5 @@
 {
-  "name": "@nexus-wallet/e2e",
+  "name": "@nexus-wallet-backup/e2e",
   "version": "0.0.10",
   "description": "E2E testing for Nexus",
   "private": true,

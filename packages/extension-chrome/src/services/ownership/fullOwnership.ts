@@ -1,15 +1,15 @@
 import { transactionSkeletonToObject } from '@ckb-lumos/helpers';
 import { bytes } from '@ckb-lumos/codec';
-import { ConfigService, KeystoreService, OwnershipService, PlatformService } from '@nexus-wallet/types';
+import { ConfigService, KeystoreService, OwnershipService, PlatformService } from '@nexus-wallet-backup/types';
 import { createScriptInfoDb, OwnershipStorage, ScriptInfo, ScriptInfoDb } from './storage';
-import { asserts, errors } from '@nexus-wallet/utils';
+import { asserts, errors } from '@nexus-wallet-backup/utils';
 import { FULL_OWNERSHIP_EXTERNAL_PARENT_PATH, FULL_OWNERSHIP_INTERNAL_PARENT_PATH } from './constants';
 import { CellCursor, decodeCursor, encodeCursor } from './cursor';
 import { BackendProvider } from './backend';
 import { HexString, Script, utils } from '@ckb-lumos/lumos';
 import { common } from '@ckb-lumos/common-scripts';
 import { Config } from '@ckb-lumos/config-manager';
-import { SIGN_DATA_MAGIC } from '@nexus-wallet/protocol';
+import { SIGN_DATA_MAGIC } from '@nexus-wallet-backup/protocol';
 
 export function createFullOwnershipService({
   storage,

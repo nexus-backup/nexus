@@ -1,7 +1,7 @@
 import { createConfigService } from '../../src/services/config';
 import { createInMemoryStorage } from '../../src/services/storage';
-import { ConfigService } from '@nexus-wallet/types';
-import { LIB_VERSION } from '@nexus-wallet/utils';
+import { ConfigService } from '@nexus-wallet-backup/types';
+import { LIB_VERSION } from '@nexus-wallet-backup/utils';
 import { createEventHub } from '../../src/services/event';
 
 let service: ConfigService;

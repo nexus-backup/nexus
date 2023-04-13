@@ -1,7 +1,7 @@
 import { isJSONRPCRequest, isJSONRPCResponse, JSONRPCClient } from 'json-rpc-2.0';
 import * as bridgeMessenger from 'webext-bridge';
 import * as windowMessenger from '../messaging';
-import { errors } from '@nexus-wallet/utils';
+import { errors } from '@nexus-wallet-backup/utils';
 
 function injectScript(): void {
   const script = document.createElement('script');

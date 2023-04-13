@@ -1,7 +1,7 @@
 import type { RequesterInfo } from '../base';
 import type { Cell, Script } from '@ckb-lumos/lumos';
 import type { BytesLike } from '@ckb-lumos/codec';
-import { FullOwnership, GroupedSignature, Paginate, Signature } from '@nexus-wallet/protocol';
+import { FullOwnership, GroupedSignature, Paginate, Signature } from '@nexus-wallet-backup/protocol';
 import { OmitPrefix } from '../helpers';
 
 export interface OwnershipService {

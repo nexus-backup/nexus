@@ -1,4 +1,4 @@
-import { NetworkName } from '@nexus-wallet/protocol';
+import { NetworkName } from '@nexus-wallet-backup/protocol';
 import { Promisable } from '../base';
 import type { PlatformService } from '../services/NotificationService'; // eslint-disable-line @typescript-eslint/no-unused-vars
 

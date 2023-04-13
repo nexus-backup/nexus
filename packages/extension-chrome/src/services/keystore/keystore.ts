@@ -1,12 +1,12 @@
 import type { HexString } from '@ckb-lumos/lumos';
-import type { KeystoreService, Promisable, Storage } from '@nexus-wallet/types';
+import type { KeystoreService, Promisable, Storage } from '@nexus-wallet-backup/types';
 import type {
   GetExtendedPublicKeyPayload,
   InitKeystorePayload,
   SignMessagePayload,
   NonHardenedPath,
-} from '@nexus-wallet/types/lib/services/KeystoreService';
-import { asserts, errors, resolveValue } from '@nexus-wallet/utils';
+} from '@nexus-wallet-backup/types/lib/services/KeystoreService';
+import { asserts, errors, resolveValue } from '@nexus-wallet-backup/utils';
 import { hd } from '@ckb-lumos/lumos';
 import { bytes } from '@ckb-lumos/codec';
 import { key, Keystore } from '@ckb-lumos/hd';

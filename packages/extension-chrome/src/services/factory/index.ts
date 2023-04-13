@@ -1,5 +1,5 @@
 import * as awilix from 'awilix';
-import { ConfigService, KeystoreService, OwnershipService, PlatformService, Storage } from '@nexus-wallet/types';
+import { ConfigService, KeystoreService, OwnershipService, PlatformService, Storage } from '@nexus-wallet-backup/types';
 import { createConfigService } from '../config';
 import { createInternalService, InternalService } from '../internal';
 import { createKeystoreService } from '../keystore';

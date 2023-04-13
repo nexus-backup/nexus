@@ -2,7 +2,7 @@
 import { BI } from '@ckb-lumos/bi';
 import { parseAddress, TransactionSkeleton, TransactionSkeletonType } from '@ckb-lumos/helpers';
 import { common } from '@ckb-lumos/common-scripts';
-import { Cell, Script } from '@nexus-wallet/protocol';
+import { Cell, Script } from '@nexus-wallet-backup/protocol';
 import { predefined } from '@ckb-lumos/config-manager';
 import { secp256k1Blake160 } from '@ckb-lumos/common-scripts';
 import { FullOwnershipProvider } from '../src';

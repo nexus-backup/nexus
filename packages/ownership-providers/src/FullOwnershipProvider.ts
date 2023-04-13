@@ -1,7 +1,7 @@
 import range from 'lodash.range';
-import { Events, FullOwnership, InjectedCkb } from '@nexus-wallet/protocol';
+import { Events, FullOwnership, InjectedCkb } from '@nexus-wallet-backup/protocol';
 import { BI, BIish } from '@ckb-lumos/bi';
-import { errors } from '@nexus-wallet/utils';
+import { errors } from '@nexus-wallet-backup/utils';
 import {
   createTransactionFromSkeleton,
   minimalCellCapacityCompatible,

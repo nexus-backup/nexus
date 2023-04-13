@@ -1,4 +1,4 @@
-# @nexus-wallet/providers
+# @nexus-wallet-backup/providers
 
 This package contains a set of TypeScript definitions for the Nexus Wallet protocol, such as primitives, callable
 functions, and events.

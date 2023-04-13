@@ -2,7 +2,7 @@ import './patch';
 import '../rpc/walletImpl';
 import '../rpc/debugImpl';
 import '../rpc/ckbImpl';
-import { createLogger, LIB_VERSION } from '@nexus-wallet/utils';
+import { createLogger, LIB_VERSION } from '@nexus-wallet-backup/utils';
 import { Endpoint, onMessage } from 'webext-bridge';
 import { createServer } from '../rpc';
 import { makeBrowserExtensionModulesFactory } from '../services';

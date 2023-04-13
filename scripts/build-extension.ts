@@ -23,7 +23,7 @@ export default class BuildExtension implements IPlugin {
       // build Nexus extension
       'npm run build:extension-chrome',
       // zip Nexus extension into `packages/extension-chrome/nexus.zip`
-      'npm run -w @nexus-wallet/extension-chrome zip',
+      'npm run -w @nexus-wallet-backup/extension-chrome zip',
     ].join(' && ');
 
     return new Promise((resolve, reject) => {
