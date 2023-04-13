@@ -1,7 +1,7 @@
 import { Modules } from '../services';
-import { RequesterInfo } from '@nexus-wallet/types/lib/base';
-import { RpcMethods as ProtocolRpcMethods } from '@nexus-wallet/types';
-import { Config as NexusConfig } from '@nexus-wallet/types/lib/services/ConfigService';
+import { RequesterInfo } from '@nexus-wallet-backup/types/lib/base';
+import { RpcMethods as ProtocolRpcMethods } from '@nexus-wallet-backup/types';
+import { Config as NexusConfig } from '@nexus-wallet-backup/types/lib/services/ConfigService';
 
 export interface DebugMethods {
   debug_initWallet(): Promise<void>;

@@ -1,5 +1,5 @@
 import { createJSONRPCErrorResponse, JSONRPCErrorCode, JSONRPCServerMiddleware } from 'json-rpc-2.0';
-import { formatMessage } from '@nexus-wallet/utils';
+import { formatMessage } from '@nexus-wallet-backup/utils';
 import { ServerParams } from '../types';
 
 /**

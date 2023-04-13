@@ -595,7 +595,7 @@ FullOwnership.wallet\_fullOwnership\_signTransaction
 
 <a name="readmemd"></a>
 
-# @nexus-wallet/protocol
+# @nexus-wallet-backup/protocol
 
 ## Table of contents
 

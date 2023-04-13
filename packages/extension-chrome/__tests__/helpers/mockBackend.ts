@@ -1,8 +1,8 @@
 import { bytes } from '@ckb-lumos/codec';
 import { Backend } from '../../src/services/ownership/backend';
-import { errors } from '@nexus-wallet/utils';
+import { errors } from '@nexus-wallet-backup/utils';
 import type { Script } from '@ckb-lumos/lumos';
-import { Promisable } from '@nexus-wallet/types';
+import { Promisable } from '@nexus-wallet-backup/types';
 
 export const mockBackend = createMockBackend();
 

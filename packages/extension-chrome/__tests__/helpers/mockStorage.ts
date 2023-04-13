@@ -1,5 +1,5 @@
 import { createInMemoryStorage } from '../../src/services/storage';
-import { Storage } from '@nexus-wallet/types';
+import { Storage } from '@nexus-wallet-backup/types';
 
 /**
  * a mocked storage with init wallet with

@@ -1,4 +1,4 @@
-import { asyncSleep, createLogger } from '@nexus-wallet/utils';
+import { asyncSleep, createLogger } from '@nexus-wallet-backup/utils';
 import { ModulesFactory } from '../../factory';
 import { createWatchtower, Watchtower } from '../watchtower';
 import { createScriptInfoDb, OwnershipStorage } from '../storage';

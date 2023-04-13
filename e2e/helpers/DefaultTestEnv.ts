@@ -1,6 +1,6 @@
 import { BrowserContext, chromium, Page } from 'playwright';
-import { InjectedCkb, RpcMethods } from '@nexus-wallet/protocol';
-import { errors, LIB_VERSION } from '@nexus-wallet/utils';
+import { InjectedCkb, RpcMethods } from '@nexus-wallet-backup/protocol';
+import { errors, LIB_VERSION } from '@nexus-wallet-backup/utils';
 import { NEXUS_BUILD_PATH, PERSISTENT_PATH } from '../constants';
 import path from 'path';
 import { getDefaultStorageData } from './storage';

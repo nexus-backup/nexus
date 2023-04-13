@@ -1,5 +1,5 @@
 {
-  "name": "@nexus-wallet/nexus",
+  "name": "@nexus-wallet-backup/nexus",
   "version": "0.0.10",
   "description": "An UTxO friendly wallet extension for CKB",
   "private": true,
@@ -47,11 +47,11 @@
     "prepare": "husky install",
     "build": "run-s build:libs build:extension-chrome",
     "build:nexus": "echo -e '[DEPRECATED]: please migrate to build:libs' && npm run build:libs",
-    "build:libs": "lerna run build --ignore '@nexus-wallet/extension-chrome'",
-    "build:extension-chrome": "npm run build -w @nexus-wallet/extension-chrome",
+    "build:libs": "lerna run build --ignore '@nexus-wallet-backup/extension-chrome'",
+    "build:extension-chrome": "npm run build -w @nexus-wallet-backup/extension-chrome",
     "test": "jest",
-    "e2e": "npm run test -w=@nexus-wallet/e2e",
-    "start": "npm run start -w @nexus-wallet/extension-chrome",
+    "e2e": "npm run test -w=@nexus-wallet-backup/e2e",
+    "start": "npm run start -w @nexus-wallet-backup/extension-chrome",
     "lint": "eslint 'packages/*/{src,__tests__}/**/*.{js,ts,jsx,tsx}'",
     "check": "npm run check:types",
     "check:types": "lerna run check:types --parallel",
@@ -75,7 +75,7 @@
       "npx eslint"
     ],
     "packages/types/**/*": [
-      "npm run build:docs -w @nexus-wallet/protocol",
+      "npm run build:docs -w @nexus-wallet-backup/protocol",
       "prettier --write",
       "git add docs/rpc.md"
     ]
@@ -83,6 +83,7 @@
   "auto": {
     "plugins": [
       "magic-zero",
+      "./scripts/update-version.ts",
       "./scripts/build-extension.ts",
       "protected-branch",
       [

@@ -1,4 +1,4 @@
-import { Config } from '@nexus-wallet/types/lib/services';
+import { Config } from '@nexus-wallet-backup/types/lib/services';
 import { useQuery, useQueryClient, UseQueryResult } from '@tanstack/react-query';
 import { useService } from './useService';
 

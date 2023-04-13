@@ -1,5 +1,5 @@
-import { Storage } from '@nexus-wallet/types';
-import { errors } from '@nexus-wallet/utils';
+import { Storage } from '@nexus-wallet-backup/types';
+import { errors } from '@nexus-wallet-backup/utils';
 
 export interface InMemoryStorage<S> extends Storage<S> {
   getAll(): S | undefined;

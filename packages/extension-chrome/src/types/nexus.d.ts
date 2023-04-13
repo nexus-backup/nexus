@@ -1,4 +1,4 @@
-import { InjectedCkb } from '@nexus-wallet/types';
+import { InjectedCkb } from '@nexus-wallet-backup/types';
 
 declare global {
   interface Window {

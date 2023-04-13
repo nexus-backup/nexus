@@ -1,4 +1,4 @@
-import { createLogger, errors } from '@nexus-wallet/utils';
+import { createLogger, errors } from '@nexus-wallet-backup/utils';
 import {
   ZGetLiveCellsPayload,
   ZGetOffChainLocksPayload,

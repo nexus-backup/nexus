@@ -3,14 +3,14 @@
 ## Quick Start
 
 ```sh
-npm run test -w @nexus-wallet/e2e
+npm run test -w @nexus-wallet-backup/e2e
 
 # run in headless mode
-HEADLESS=true npm run test -w @nexus-wallet/e2e
+HEADLESS=true npm run test -w @nexus-wallet-backup/e2e
 
 # any jest cli options can be passed to the test command, e.g.
 # increase timeout, default is 5s, the following example is 20s
-npm run test -w @nexus-wallet/e2e -- --testTimeout 20000
+npm run test -w @nexus-wallet-backup/e2e -- --testTimeout 20000
 ```
 
 ## Add a New Case
@@ -21,7 +21,7 @@ case [wallet-enable.test.ts](./tests/wallet-enable.test.ts)
 To quick setup a new case, you can use `DefaultTestEnv.setup`
 
 ```ts
-import { DefaultTestEnv } from '@nexus-wallet/e2e/helpers';
+import { DefaultTestEnv } from '@nexus-wallet-backup/e2e/helpers';
 
 // To skip the creation of a new wallet, `initWalletWithDefaults` can be set to true
 // wallet will be initialized with

@@ -9,7 +9,7 @@ import {
   FULL_OWNERSHIP_INTERNAL_PARENT_PATH,
 } from '../../../src/services/ownership';
 import { createMockModule } from '../../helpers/createMockModule';
-import { KeystoreService, OwnershipService } from '@nexus-wallet/types';
+import { KeystoreService, OwnershipService } from '@nexus-wallet-backup/types';
 import { createScriptInfoDb, LockStatus, ScriptInfo } from '../../../src/services/ownership/storage';
 import { createConfigService } from '../../../src/services/config';
 import { createMockStorage } from '../../helpers/mockStorage';
@@ -20,7 +20,7 @@ import { bytes } from '@ckb-lumos/codec';
 import { Script, utils, Transaction } from '@ckb-lumos/lumos';
 import { common } from '@ckb-lumos/common-scripts';
 import { createEventHub } from '../../../src/services/event';
-import { SIGN_DATA_MAGIC } from '@nexus-wallet/protocol';
+import { SIGN_DATA_MAGIC } from '@nexus-wallet-backup/protocol';
 
 describe('FullOwnership', () => {
   describe('getOffChainLocks', function () {

@@ -1,6 +1,6 @@
 import { Cell, Script, Transaction } from '@ckb-lumos/lumos';
-import type { ConfigService, Paginate, Promisable } from '@nexus-wallet/types';
-import { asserts } from '@nexus-wallet/utils';
+import type { ConfigService, Paginate, Promisable } from '@nexus-wallet-backup/types';
+import { asserts } from '@nexus-wallet-backup/utils';
 import { NetworkId } from '../storage';
 import { createTransactionSkeleton, LiveCellFetcher, TransactionSkeletonType } from '@ckb-lumos/helpers';
 import { ScriptConfig } from '@ckb-lumos/config-manager';
